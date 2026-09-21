@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a,b;
+    std::cout << "Enter Width: "<< endl;
+    cin>>a;
+    std::cout << "Enter Length: "<< endl;
+    cin>>b;
+    std::cout << "The Perimeter of a Rectangle is "<<2*a+2*b<< endl;
+    return 0;
+
+}
